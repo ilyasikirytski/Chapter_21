@@ -1,10 +1,10 @@
-package Task_9;
+package task_9;
 
-public class Figure_2 implements Figure {
+public class Figure_3 implements Figure {
 
     @Override
     public void fall() {
-        int countOfCells = 2;
+        int countOfCells = 3;
         System.out.println("figure " + countOfCells + " countOfCells");
     }
 }

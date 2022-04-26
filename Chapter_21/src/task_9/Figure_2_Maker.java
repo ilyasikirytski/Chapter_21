@@ -1,4 +1,4 @@
-package Task_9;
+package task_9;
 
 public class Figure_2_Maker implements Figure_Maker{
     @Override

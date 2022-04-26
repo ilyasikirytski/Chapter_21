@@ -1,4 +1,4 @@
-package Task_9;
+package task_9;
 
 public interface Figure_Maker {
     Figure createFigure();
