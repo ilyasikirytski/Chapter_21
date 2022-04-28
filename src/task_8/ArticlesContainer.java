@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class ArticlesContainer implements Prototype {
-    public List<Article> articles;
+    private final List<Article> articles;
 
     public ArticlesContainer() {
         articles = new ArrayList<>();
@@ -14,8 +14,12 @@ public class ArticlesContainer implements Prototype {
         this.articles = articles;
     }
 
-    public void addArticle(Article article) {
-        this.articles.add(article);
+    public void addArticle(String article) {
+        this.articles.add(new Article(article));
+    }
+
+    public void deleteArticle(int indexOfArticle) {
+        this.articles.remove(indexOfArticle);
     }
 
     public void changeArticle(int indexOfArticle, String newArticle) {
