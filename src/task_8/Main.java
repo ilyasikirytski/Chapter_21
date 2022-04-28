@@ -5,7 +5,6 @@
  */
 package task_8;
 
-import java.util.List;
 
 public class Main {
     public static void main(String[] args) throws CloneNotSupportedException {
@@ -15,15 +14,8 @@ public class Main {
         articlesContainerOriginal.addArticle(new Article("article3"));
         System.out.println(articlesContainerOriginal);
 
-        //почему не могу взаимодействовать через articlesContainerClone ??
-        // (прим.articlesContainerClone.changeArticle(0,"000000"); -> тогда меняется и оригинал.
-        // что нужно сделать для того, что бы это было возможно?
         ArticlesContainer articlesContainerClone = (ArticlesContainer) articlesContainerOriginal.clonePrototype();
-//        articlesContainerClone.changeArticle(0,"000000");
-        List<Article> articles = articlesContainerClone.getArticles();
-        articles.add(new Article("COPY"));
-        articles.remove(articles.get(0));
-        articles.remove(0);
+        articlesContainerClone.changeArticle(0, "000000");
         System.out.println(articlesContainerClone);
 
         System.out.println(articlesContainerOriginal);

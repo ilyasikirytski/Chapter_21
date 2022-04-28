@@ -18,17 +18,12 @@ public class ArticlesContainer implements Prototype {
         this.articles.add(article);
     }
 
-    public List<Article> getArticles() {
-        return articles;
-    }
-
     public void changeArticle(int indexOfArticle, String newArticle) {
-        this.articles.get(indexOfArticle).changeArticle(newArticle);
+        this.articles.set(indexOfArticle, new Article(newArticle));
     }
 
     public Object clonePrototype() {
-        List<Article> articles = new ArrayList<>(this.articles);
-        return new ArticlesContainer(articles);
+        return new ArticlesContainer(new ArrayList<>(this.articles));
     }
 
     @Override
