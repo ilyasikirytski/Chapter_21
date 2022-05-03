@@ -1,6 +1,4 @@
-package task_5.rejected_call;
-
-import task_5.CallFactory;
+package task_5;
 
 public class RejectedCallFactory implements CallFactory {
 

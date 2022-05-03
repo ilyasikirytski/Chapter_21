@@ -5,9 +5,6 @@
  */
 package task_5;
 
-import task_5.received_call.ReceivedCallFactory;
-import task_5.rejected_call.RejectedCallFactory;
-
 public class Main {
     public static void main(String[] args) {
         CallFactory callFactory = getCallFactory(true);

@@ -1,4 +1,4 @@
-package task_5.dao_pattern;
+package task_5;
 
 import task_5.Call;
 

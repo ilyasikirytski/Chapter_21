@@ -1,4 +1,4 @@
-package example_abstract_factory.ford;
+package example_abstract_factory;
 
 import example_abstract_factory.Coupe;
 

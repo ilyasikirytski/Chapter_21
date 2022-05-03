@@ -1,6 +1,6 @@
 package example_builder.advBuilder;
 
-import example_builder.simpleBuilder.Transmission;
+import example_builder.advBuilder.Transmission;
 
 public class ToyotaCelicaBuilder extends AdvPatternCarBuilder {
     @Override

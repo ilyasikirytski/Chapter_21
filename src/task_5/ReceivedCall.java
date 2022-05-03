@@ -1,8 +1,8 @@
-package task_5.rejected_call;
+package task_5;
 
 import task_5.Call;
 
-public class RejectedCall extends Call {
+public class ReceivedCall extends Call {
 
     public void setCallerName(String callerName) {
         super.callerName = callerName;
@@ -26,7 +26,7 @@ public class RejectedCall extends Call {
 
     @Override
     public void save(Call call) {
-        if (!call.isReceived()) {
+        if (call.isReceived()) {
             super.save(call);
         }
     }

@@ -1,6 +1,4 @@
-package task_5.dao_pattern;
-
-import task_5.Call;
+package task_5;
 
 import java.util.ArrayList;
 import java.util.List;

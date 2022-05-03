@@ -1,8 +1,4 @@
-package example_abstract_factory.toyota;
-
-import example_abstract_factory.CarsFactory;
-import example_abstract_factory.Coupe;
-import example_abstract_factory.Sedan;
+package example_abstract_factory;
 
 public class ToyotaFactory implements CarsFactory {
     @Override

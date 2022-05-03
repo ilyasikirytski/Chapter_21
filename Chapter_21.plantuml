@@ -1,0 +1,428 @@
+@startuml
+
+title __CHAPTER_21's Class Diagram__\n
+
+  namespace example_abstract_factory {
+    interface example_abstract_factory.CarsFactory {
+    }
+  }
+  
+
+  namespace example_abstract_factory {
+    interface example_abstract_factory.Coupe {
+    }
+  }
+  
+
+  namespace example_abstract_factory {
+    class example_abstract_factory.FordCoupe {
+    }
+  }
+  
+
+  namespace example_abstract_factory {
+    class example_abstract_factory.FordFactory {
+    }
+  }
+  
+
+  namespace example_abstract_factory {
+    class example_abstract_factory.FordSedan {
+    }
+  }
+  
+
+  namespace example_abstract_factory {
+    class example_abstract_factory.Main {
+    }
+  }
+  
+
+  namespace example_abstract_factory {
+    interface example_abstract_factory.Sedan {
+    }
+  }
+  
+
+  namespace example_abstract_factory {
+    class example_abstract_factory.ToyotaCoupe {
+    }
+  }
+  
+
+  namespace example_abstract_factory {
+    class example_abstract_factory.ToyotaFactory {
+    }
+  }
+  
+
+  namespace example_abstract_factory {
+    class example_abstract_factory.ToyotaSedan {
+    }
+  }
+  
+
+  namespace example_builder.advBuilder {
+    class example_builder.advBuilder.AdvPatternCar {
+    }
+  }
+  
+
+  namespace example_builder.advBuilder {
+    abstract class example_builder.advBuilder.AdvPatternCarBuilder {
+    }
+  }
+  
+
+  namespace example_builder.advBuilder {
+    class example_builder.advBuilder.Director {
+    }
+  }
+  
+
+  namespace example_builder.advBuilder {
+    class example_builder.advBuilder.FordMondeoBuilder {
+    }
+  }
+  
+
+  namespace example_builder.advBuilder {
+    class example_builder.advBuilder.Main {
+    }
+  }
+  
+
+  namespace example_builder.advBuilder {
+    class example_builder.advBuilder.ToyotaCelicaBuilder {
+    }
+  }
+  
+
+  namespace example_builder.advBuilder {
+    enum Transmission {
+    }
+  }
+  
+
+  namespace example_builder.simpleBuilder {
+    class example_builder.simpleBuilder.Main {
+    }
+  }
+  
+
+  namespace example_builder.simpleBuilder {
+    class example_builder.simpleBuilder.SimplePatternCar {
+    }
+  }
+  
+
+  namespace example_builder.simpleBuilder {
+    class example_builder.simpleBuilder.SimplePatternCarBuilder {
+    }
+  }
+  
+
+  namespace example_builder.simpleBuilder {
+    enum Transmission {
+    }
+  }
+  
+
+  namespace example_factory_method {
+    class example_factory_method.AnalogWatch {
+    }
+  }
+  
+
+  namespace example_factory_method {
+    class example_factory_method.AnalogWatchMaker {
+    }
+  }
+  
+
+  namespace example_factory_method {
+    class example_factory_method.DigitalWatch {
+    }
+  }
+  
+
+  namespace example_factory_method {
+    class example_factory_method.DigitalWatchMaker {
+    }
+  }
+  
+
+  namespace example_factory_method {
+    class example_factory_method.Main {
+    }
+  }
+  
+
+  namespace example_factory_method {
+    interface example_factory_method.Watch {
+    }
+  }
+  
+
+  namespace example_factory_method {
+    interface example_factory_method.WatchMaker {
+    }
+  }
+  
+
+  namespace example_prototype {
+    interface example_prototype.Copyable {
+    }
+  }
+  
+
+  namespace example_prototype {
+    class example_prototype.Human {
+    }
+  }
+  
+
+  namespace example_prototype {
+    class example_prototype.Main {
+    }
+  }
+  
+
+  namespace example_singleton {
+    class example_singleton.Main {
+    }
+  }
+  
+
+  namespace example_singleton {
+    class example_singleton.Single {
+    }
+  }
+  
+
+  namespace task_1 {
+    abstract class task_1.AbstractCar {
+    }
+  }
+  
+
+  namespace task_1 {
+    class task_1.Car {
+    }
+  }
+  
+
+  namespace task_1 {
+    class task_1.CarBuilder {
+    }
+  }
+  
+
+  namespace task_1 {
+    class task_1.ExclusiveCar {
+    }
+  }
+  
+
+  namespace task_1 {
+    class task_1.Main {
+    }
+  }
+  
+
+  namespace task_1 {
+    class task_1.Truck {
+    }
+  }
+  
+
+  namespace task_5 {
+    class task_5.Call {
+    }
+  }
+  
+
+  namespace task_5 {
+    class task_5.CallDao {
+    }
+  }
+  
+
+  namespace task_5 {
+    interface task_5.CallFactory {
+    }
+  }
+  
+
+  namespace task_5 {
+    interface task_5.Dao {
+    }
+  }
+  
+
+  namespace task_5 {
+    class task_5.Main {
+    }
+  }
+  
+
+  namespace task_5 {
+    class task_5.ReceivedCall {
+    }
+  }
+  
+
+  namespace task_5 {
+    class task_5.ReceivedCallFactory {
+    }
+  }
+  
+
+  namespace task_5 {
+    class task_5.RejectedCall {
+    }
+  }
+  
+
+  namespace task_5 {
+    class task_5.RejectedCallFactory {
+    }
+  }
+  
+
+  namespace task_8 {
+    class task_8.Article {
+    }
+  }
+  
+
+  namespace task_8 {
+    class task_8.ArticlesContainer {
+    }
+  }
+  
+
+  namespace task_8 {
+    class task_8.Main {
+    }
+  }
+  
+
+  namespace task_8 {
+    interface task_8.Prototype {
+    }
+  }
+  
+
+  namespace task_9 {
+    interface task_9.Figure {
+    }
+  }
+  
+
+  namespace task_9 {
+    class task_9.Figure_1 {
+    }
+  }
+  
+
+  namespace task_9 {
+    class task_9.Figure_1_Maker {
+    }
+  }
+  
+
+  namespace task_9 {
+    class task_9.Figure_2 {
+    }
+  }
+  
+
+  namespace task_9 {
+    class task_9.Figure_2_Maker {
+    }
+  }
+  
+
+  namespace task_9 {
+    class task_9.Figure_3 {
+    }
+  }
+  
+
+  namespace task_9 {
+    class task_9.Figure_3_Maker {
+    }
+  }
+  
+
+  namespace task_9 {
+    interface task_9.Figure_Maker {
+    }
+  }
+  
+
+  namespace task_9 {
+    class task_9.Main {
+    }
+  }
+  
+
+  namespace task_9 {
+    class task_9.SuperFigure {
+    }
+  }
+  
+
+  namespace task_9 {
+    class task_9.SuperFigure_Maker {
+    }
+  }
+  
+
+  example_abstract_factory.FordCoupe .up.|> example_abstract_factory.Coupe
+  example_abstract_factory.FordFactory .up.|> example_abstract_factory.CarsFactory
+  example_abstract_factory.FordSedan .up.|> example_abstract_factory.Sedan
+  example_abstract_factory.ToyotaCoupe .up.|> example_abstract_factory.Coupe
+  example_abstract_factory.ToyotaFactory .up.|> example_abstract_factory.CarsFactory
+  example_abstract_factory.ToyotaSedan .up.|> example_abstract_factory.Sedan
+  example_builder.advBuilder.AdvPatternCar o-- example_builder.advBuilder.Transmission : transmission
+  example_builder.advBuilder.AdvPatternCarBuilder o-- example_builder.advBuilder.AdvPatternCar : car
+  example_builder.advBuilder.Director o-- example_builder.advBuilder.AdvPatternCarBuilder : builder
+  example_builder.advBuilder.FordMondeoBuilder -up-|> example_builder.advBuilder.AdvPatternCarBuilder
+  example_builder.advBuilder.ToyotaCelicaBuilder -up-|> example_builder.advBuilder.AdvPatternCarBuilder
+  example_builder.simpleBuilder.SimplePatternCar o-- example_builder.simpleBuilder.Transmission : transmission
+  example_builder.simpleBuilder.SimplePatternCarBuilder o-- example_builder.simpleBuilder.Transmission : t
+  example_factory_method.AnalogWatch .up.|> example_factory_method.Watch
+  example_factory_method.AnalogWatchMaker .up.|> example_factory_method.WatchMaker
+  example_factory_method.DigitalWatch .up.|> example_factory_method.Watch
+  example_factory_method.DigitalWatchMaker .up.|> example_factory_method.WatchMaker
+  example_prototype.Human .up.|> example_prototype.Copyable
+  task_1.Car -up-|> task_1.AbstractCar
+  task_1.ExclusiveCar -up-|> task_1.AbstractCar
+  task_1.Truck -up-|> task_1.AbstractCar
+  task_5.Call -up-|> task_5.CallDao
+  task_5.CallDao .up.|> task_5.Dao
+  task_5.ReceivedCall -up-|> task_5.Call
+  task_5.ReceivedCallFactory .up.|> task_5.CallFactory
+  task_5.RejectedCall -up-|> task_5.Call
+  task_5.RejectedCallFactory .up.|> task_5.CallFactory
+  task_8.ArticlesContainer .up.|> task_8.Prototype
+  task_9.Figure_1 .up.|> task_9.Figure
+  task_9.Figure_1_Maker .up.|> task_9.Figure_Maker
+  task_9.Figure_2 .up.|> task_9.Figure
+  task_9.Figure_2_Maker .up.|> task_9.Figure_Maker
+  task_9.Figure_3 .up.|> task_9.Figure
+  task_9.Figure_3_Maker .up.|> task_9.Figure_Maker
+  task_9.SuperFigure .up.|> task_9.Figure
+  task_9.SuperFigure_Maker .up.|> task_9.Figure_Maker
+
+
+right footer
+
+
+PlantUML diagram generated by SketchIt! (https://bitbucket.org/pmesmeur/sketch.it)
+For more information about this tool, please contact philippe.mesmeur@gmail.com
+endfooter
+
+@enduml

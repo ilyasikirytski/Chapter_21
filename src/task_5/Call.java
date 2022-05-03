@@ -1,7 +1,5 @@
 package task_5;
 
-import task_5.dao_pattern.CallDao;
-
 public class Call extends CallDao {
     public boolean isReceived;
     public String callerName;
