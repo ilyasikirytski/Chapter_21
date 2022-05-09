@@ -7,13 +7,23 @@ abstract class AbstractCar {
     public String wheelDrive;
     public int maxSpeed;
 
-    abstract void setModel(String model);
+    void setModel(String model) {
+        this.model = model;
+    }
 
-    abstract void setGearBox(String gearBox);
+    void setGearBox(String gearBox) {
+        this.gearBox = gearBox;
+    }
 
-    abstract void setHorsePower(int horsePower);
+    void setHorsePower(int horsePower) {
+        this.horsePower = horsePower;
+    }
 
-    abstract void setWheelDrive(String wheelDrive);
+    void setWheelDrive(String wheelDrive) {
+        this.wheelDrive = wheelDrive;
+    }
 
-    abstract void setMaxSpeed(int maxSpeed);
+    void setMaxSpeed(int maxSpeed) {
+        this.maxSpeed = maxSpeed;
+    }
 }

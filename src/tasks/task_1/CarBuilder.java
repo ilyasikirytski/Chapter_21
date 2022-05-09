@@ -41,24 +41,4 @@ public class CarBuilder {
         serialCar.setMaxSpeed(maxSpeed);
         return serialCar;
     }
-
-    public ExclusiveCar buildExclusiveCar() {
-        ExclusiveCar exclusiveCar = new ExclusiveCar();
-        exclusiveCar.setModel(model);
-        exclusiveCar.setGearBox(gearBox);
-        exclusiveCar.setHorsePower(horsePower);
-        exclusiveCar.setWheelDrive(wheelDrive);
-        exclusiveCar.setMaxSpeed(maxSpeed);
-        return exclusiveCar;
-    }
-
-    public Truck buildTruckCar() {
-        Truck truck = new Truck();
-        truck.setModel(model);
-        truck.setGearBox(gearBox);
-        truck.setHorsePower(horsePower);
-        truck.setWheelDrive(wheelDrive);
-        truck.setMaxSpeed(maxSpeed);
-        return truck;
-    }
 }

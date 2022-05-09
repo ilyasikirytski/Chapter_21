@@ -16,7 +16,7 @@ public class Main {
                 .buildSerialCar();
         System.out.println(car);
 
-        ExclusiveCar exclusiveCar = new CarBuilder()
+        ExclusiveCar exclusiveCar = new ExclusiveCarBuilder()
                 .setModel("ferrari")
                 .setGearBox("auto")
                 .setHorsePower(500)
@@ -25,7 +25,7 @@ public class Main {
                 .buildExclusiveCar();
         System.out.println(exclusiveCar);
 
-        Truck truck = new CarBuilder()
+        Truck truck = new TruckBuilder()
                 .setModel("truck")
                 .setGearBox("auto")
                 .setHorsePower(700)
